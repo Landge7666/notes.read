@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #000000, #007bff);
+  color: white;
+  padding: 20px;
+}
+.login-box, .subject-box, .note-card {
+  background: #222;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 12px;
+}
+input, textarea, select, button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+}
+button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
